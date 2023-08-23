@@ -1,0 +1,45 @@
+{
+  "info": {
+    "count": 20,
+    "totalPages": 372,
+    "previousPage": null,
+    "nextPage": "http://api.disneyapi.dev/character?page=2&pageSize=20"
+  },
+  "data": [
+    {
+      "_id": 6,
+      "films": [],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "sourceUrl": "https://disney.fandom.com/wiki/%27Olu_Mel",
+      "name": "'Olu Mel",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/61/Olu_main.png",
+      "createdAt": "2021-04-12T01:25:09.759Z",
+      "updatedAt": "2021-12-20T20:39:18.031Z",
+      "url": "https://api.disneyapi.dev/characters/6",
+      "__v": 0,
+      "isLiked": false
+    },
+    {
+      "_id": 13,
+      "films": [],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": ["Epic Mickey 2: The Power of Two"],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "sourceUrl": "https://disney.fandom.com/wiki/A.B.E.",
+      "name": "A.B.E.",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/20/ABE.jpg",
+      "createdAt": "2021-04-12T01:26:00.848Z",
+      "updatedAt": "2021-12-20T20:39:18.032Z",
+      "url": "https://api.disneyapi.dev/characters/13",
+      "__v": 0
+    }
+  ]
+}

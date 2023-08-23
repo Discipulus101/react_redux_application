@@ -1,0 +1,65 @@
+{
+  "name": "react_redux",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://discipulus101.github.io/react_redux_application/",
+  "dependencies": {
+    "@alfalab/core-components": "^41.15.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/cypress": "^9.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.38",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-redux": "^7.1.25",
+    "axios": "^1.4.0",
+    "cypress": "^12.17.3",
+    "eslint-plugin-cypress": "^2.13.3",
+    "gh-pages": "^5.0.0",
+    "jest-watch-typeahead": "^2.2.2",
+    "msw": "^1.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.0.4",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:cypress": "cypress open",
+    "test:cypress-headless-mod": "cypress run",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:cypress/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "endOfLine": "auto"
+  }
+}
